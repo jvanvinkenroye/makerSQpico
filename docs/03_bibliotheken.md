@@ -46,23 +46,32 @@ CIRCUITPY/
 
 ## Editor einrichten
 
-### Mu Editor (empfohlen für Einsteiger)
+### CircuitPython Web Editor (empfohlen, kein Download)
 
-Mu Editor ist speziell für CircuitPython entwickelt und enthält:
-- Automatische Erkennung des Pico
-- Eingebauten seriellen Monitor (REPL)
-- Einfache Dateibearbeitung
+Der offizielle Editor von Adafruit läuft direkt im Browser – kein Download nötig.
 
-[Mu Editor herunterladen](https://codewith.mu/)
+[code.circuitpython.org](https://code.circuitpython.org/) → funktioniert in Chrome, Edge und Firefox
+
+- Pico per USB verbinden, "Connect" klicken
+- Dateien direkt bearbeiten und speichern
+- Eingebautes serielles Terminal (REPL)
+- Autovervollständigung für CircuitPython-Module
+
+### Thonny (Desktop-Alternative)
+
+Thonny ist eine einfache Python-IDE mit nativer CircuitPython-Unterstützung.
+
+[Thonny herunterladen](https://thonny.org/)
 
 Nach dem Öffnen:
-1. Modus "CircuitPython" wählen
+1. Werkzeuge → Optionen → Interpreter: "CircuitPython" wählen
 2. Dateien auf dem `CIRCUITPY`-Laufwerk direkt öffnen und speichern
+3. REPL ist im Shell-Bereich unten verfügbar
 
-### VS Code (Alternative)
+### VS Code (für Fortgeschrittene)
 
 1. [VS Code herunterladen](https://code.visualstudio.com/)
-2. Erweiterung "CircuitPython" von Thonny (oder "Pylance" für Autovervollständigung) installieren
+2. Erweiterung "CircuitPython" installieren
 3. `CIRCUITPY` als Arbeitsordner öffnen
 
 Beim Speichern einer Datei auf dem `CIRCUITPY`-Laufwerk startet der Pico automatisch neu und führt den neuen Code aus.

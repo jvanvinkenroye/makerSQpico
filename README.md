@@ -23,7 +23,8 @@ Ein schrittweises Lernprojekt: Den Raspberry Pi Pico mit CircuitPython als USB-T
 
 ## Benötigte Software
 
-- **Mu Editor** (empfohlen, einsteigertauglich): [codewith.mu](https://codewith.mu/)
+- **CircuitPython Web Editor** (empfohlen, kein Download): [code.circuitpython.org](https://code.circuitpython.org/)
+- **Thonny** (Desktop-Alternative): [thonny.org](https://thonny.org/)
 - Alternativ: VS Code mit der Erweiterung "CircuitPython"
 - Dateimanager (Finder, Explorer, Nautilus)
 

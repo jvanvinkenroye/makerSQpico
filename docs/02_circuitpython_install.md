@@ -66,10 +66,15 @@ CIRCUITPY/
 
 Der REPL (Read-Eval-Print Loop) ermöglicht es, Python-Befehle direkt auf dem Pico auszuführen.
 
-**Mit Mu Editor:**
-- Mu Editor öffnen, Modus "CircuitPython" wählen
-- Auf "Seriell" klicken → Terminal öffnet sich
+**Mit dem CircuitPython Web Editor ([code.circuitpython.org](https://code.circuitpython.org/)):**
+- Seite in Chrome/Edge öffnen, Pico per USB verbinden
+- "Connect" → Pico auswählen → serielles Terminal öffnet sich
 - `Strg+C` drücken → `>>>` erscheint
+- Testbefehl eingeben: `print("Hallo vom Pico!")`
+
+**Mit Thonny ([thonny.org](https://thonny.org/)):**
+- Thonny öffnen → Werkzeuge → Optionen → Interpreter: "CircuitPython" wählen
+- Unten im Shell-Bereich erscheint der REPL
 - Testbefehl eingeben: `print("Hallo vom Pico!")`
 
 **Mit screen (macOS/Linux):**
