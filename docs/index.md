@@ -26,6 +26,10 @@ Ein schrittweises Lernprojekt: Den Raspberry Pi Pico mit CircuitPython als USB-T
 - Alternativ: VS Code mit CircuitPython-Erweiterung
 - Dateimanager (Finder, Explorer, Nautilus)
 
+## Download
+
+[Repository als ZIP herunterladen](https://github.com/jvanvinkenroye/makerSQpico/archive/refs/heads/main.zip)
+
 ## Ablauf
 
 1. [Pico mit dem Rechner verbinden](01_verbindung.md)
