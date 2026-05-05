@@ -6,7 +6,7 @@ Der Raspberry Pi Pico hat eine grüne LED direkt auf dem Board – kein externes
 
 ## Code auf den Pico laden
 
-Die fertige Datei liegt unter `examples/00_blink/code.py` im Projektverzeichnis.
+Die fertige Datei liegt im Repo unter [`examples/00_blink/code.py`](https://github.com/jvanvinkenroye/makerSQpico/blob/main/examples/00_blink/code.py).
 
 Kopiere sie als `code.py` auf das `CIRCUITPY`-Laufwerk:
 
@@ -23,6 +23,23 @@ cp examples/00_blink/code.py /media/$USER/CIRCUITPY/code.py
 ```
 
 Der Pico startet automatisch neu sobald die Datei gespeichert ist.
+
+## Code
+
+```python title="examples/00_blink/code.py"
+import board
+import digitalio
+import time
+
+led = digitalio.DigitalInOut(board.LED)
+led.direction = digitalio.Direction.OUTPUT
+
+while True:
+    led.value = True
+    time.sleep(0.5)
+    led.value = False
+    time.sleep(0.5)
+```
 
 ## Code-Erklärung
 

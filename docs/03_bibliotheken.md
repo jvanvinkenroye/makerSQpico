@@ -10,7 +10,7 @@ Für unser Projekt benötigen wir die Bibliothek **`adafruit_hid`**.
 
 Adafruit stellt alle Bibliotheken gebündelt zur Verfügung:
 
-1. Öffne: https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases
+1. Öffne die [Adafruit CircuitPython Bundle Releases](https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases)
 2. Lade die neueste `adafruit-circuitpython-bundle-9.x-mpy-*.zip` herunter
    (Versionsnummer muss zur installierten CircuitPython-Version passen – `9.x` für CircuitPython 9)
 3. Entpacke das ZIP-Archiv
@@ -53,7 +53,7 @@ Mu Editor ist speziell für CircuitPython entwickelt und enthält:
 - Eingebauten seriellen Monitor (REPL)
 - Einfache Dateibearbeitung
 
-Download: https://codewith.mu/
+[Mu Editor herunterladen](https://codewith.mu/)
 
 Nach dem Öffnen:
 1. Modus "CircuitPython" wählen
@@ -61,7 +61,7 @@ Nach dem Öffnen:
 
 ### VS Code (Alternative)
 
-1. VS Code installieren: https://code.visualstudio.com/
+1. [VS Code herunterladen](https://code.visualstudio.com/)
 2. Erweiterung "CircuitPython" von Thonny (oder "Pylance" für Autovervollständigung) installieren
 3. `CIRCUITPY` als Arbeitsordner öffnen
 

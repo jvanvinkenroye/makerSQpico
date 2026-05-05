@@ -25,7 +25,7 @@ Einen Widerstand braucht man **nicht** – der interne Pull-up-Widerstand des Pi
 | 20       | GP15     | Taster-Eingang |
 | 18       | GND      | Masse |
 
-Vollständiges Pinout: https://datasheets.raspberrypi.com/pico/Pico-R3-A4-Pinout.pdf
+Vollständiges Pinout: [Pico R3 Pinout (PDF)](https://datasheets.raspberrypi.com/pico/Pico-R3-A4-Pinout.pdf)
 
 ### Aufbau mit Breadboard
 
@@ -36,7 +36,7 @@ Vollständiges Pinout: https://datasheets.raspberrypi.com/pico/Pico-R3-A4-Pinout
 
 ## Code auf den Pico laden
 
-Die fertige Datei liegt unter `examples/01_spacebar/code.py` im Projektverzeichnis.
+Die fertige Datei liegt im Repo unter [`examples/01_spacebar/code.py`](https://github.com/jvanvinkenroye/makerSQpico/blob/main/examples/01_spacebar/code.py).
 
 Kopiere die Datei auf das `CIRCUITPY`-Laufwerk und benenne sie `code.py`:
 
@@ -53,6 +53,29 @@ cp examples/01_spacebar/code.py /media/$USER/CIRCUITPY/code.py
 ```
 
 Der Pico startet automatisch neu und führt den neuen Code aus.
+
+## Code
+
+```python title="examples/01_spacebar/code.py"
+import board
+import digitalio
+import time
+import usb_hid
+from adafruit_hid.keyboard import Keyboard
+from adafruit_hid.keycode import Keycode
+
+keyboard = Keyboard(usb_hid.devices)
+
+button = digitalio.DigitalInOut(board.GP15)
+button.direction = digitalio.Direction.INPUT
+button.pull = digitalio.Pull.UP
+
+while True:
+    if not button.value:
+        keyboard.send(Keycode.SPACEBAR)
+        time.sleep(0.3)
+    time.sleep(0.01)
+```
 
 ## Code-Erklärung
 

@@ -11,7 +11,7 @@ Weitere Vorteile für Einsteiger:
 
 ## UF2-Datei herunterladen
 
-1. Öffne: https://circuitpython.org/board/raspberry_pi_pico/
+1. Öffne die [CircuitPython-Downloadseite für den Raspberry Pi Pico](https://circuitpython.org/board/raspberry_pi_pico/)
 2. Lade die aktuelle stabile Version herunter (`.uf2`-Datei, z.B. `adafruit-circuitpython-raspberry_pi_pico-en_US-9.x.x.uf2`)
 3. Speichere die Datei irgendwo auf deinem Rechner (z.B. Downloads-Ordner)
 

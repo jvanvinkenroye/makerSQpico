@@ -56,7 +56,7 @@ sudo screen /dev/ttyACM0 115200
 ## Pinout des Pico
 
 Das offizielle Pinout-Diagramm mit allen GPIO-Nummern:
-https://datasheets.raspberrypi.com/pico/Pico-R3-A4-Pinout.pdf
+[Pico R3 Pinout (PDF)](https://datasheets.raspberrypi.com/pico/Pico-R3-A4-Pinout.pdf)
 
 Die Pin-Nummern im Code entsprechen den **GP**-Nummern auf dem Board (z.B. `GP15` = Pin 20 am Stecker).
 
