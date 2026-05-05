@@ -86,4 +86,4 @@ Beenden mit `Strg+A`, dann `K`, dann `Y`.
 
 ---
 
-Weiter: [Bibliotheken einrichten](03_bibliotheken.md)
+[← Zurück: Pico verbinden](01_verbindung.md) | [Weiter: Bibliotheken einrichten →](03_bibliotheken.md)

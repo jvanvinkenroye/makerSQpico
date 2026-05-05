@@ -109,4 +109,4 @@ time.sleep(0.9)
 
 ---
 
-Weiter: [Erste HID-Anwendung: Spacebar-Taster](05_hid_spacebar.md)
+[← Zurück: Bibliotheken einrichten](03_bibliotheken.md) | [Weiter: HID – Spacebar-Taster →](05_hid_spacebar.md)

@@ -25,6 +25,12 @@
 Alle Taster: eine Seite an den jeweiligen GPIO-Pin, andere Seite an **3,3 V** (nicht GND).
 Pull-Down-Widerstand ist intern aktiv – `btn.value` ist `True` wenn gedrückt.
 
+## Erwartetes Verhalten
+
+- Taster 1 gedrückt → Strg+F7 wird gesendet
+- Taster 2–6 → entsprechend Strg+F8 bis Strg+F12
+- Entprellung: 100 ms Pause nach jedem Tastendruck
+
 ## Tastenbelegung
 
 | Taste | Tastenkombination |

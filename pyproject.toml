@@ -1,7 +1,7 @@
 [project]
 name = "picohid"
 version = "0.1.0"
-description = "Add your description here"
+description = "Lernprojekt: Raspberry Pi Pico als USB-HID-Gerät mit CircuitPython"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [

@@ -148,3 +148,7 @@ while True:
 - Mehrere Taster für verschiedene Tasten (z.B. Pfeiltasten, Enter)
 - LED-Feedback beim Tastendruck (onboard-LED an `board.LED`)
 - Medientasten (Play/Pause, Lautstärke) mit `ConsumerControl` aus `adafruit_hid`
+
+---
+
+[← Zurück: Blink](04_blink.md) | [Weiter: Streaming Deck →](06_streaming_deck.md)

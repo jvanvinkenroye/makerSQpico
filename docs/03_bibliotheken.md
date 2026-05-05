@@ -69,4 +69,4 @@ Beim Speichern einer Datei auf dem `CIRCUITPY`-Laufwerk startet der Pico automat
 
 ---
 
-Weiter: [Erstes Programm – Blink](04_blink.md)
+[← Zurück: CircuitPython installieren](02_circuitpython_install.md) | [Weiter: Erstes Programm – Blink →](04_blink.md)

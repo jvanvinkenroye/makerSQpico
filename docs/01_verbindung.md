@@ -62,4 +62,4 @@ Die Pin-Nummern im Code entsprechen den **GP**-Nummern auf dem Board (z.B. `GP15
 
 ---
 
-Weiter: [CircuitPython installieren](02_circuitpython_install.md)
+[Weiter: CircuitPython installieren →](02_circuitpython_install.md)
