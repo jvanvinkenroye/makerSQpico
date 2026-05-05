@@ -1,5 +1,7 @@
 # Raspberry Pi Pico als HID-Gerät
 
+[![Deploy Docs](https://github.com/jvanvinkenroye/makerSQpico/actions/workflows/docs.yml/badge.svg)](https://github.com/jvanvinkenroye/makerSQpico/actions/workflows/docs.yml)
+
 Ein schrittweises Lernprojekt: Den Raspberry Pi Pico mit CircuitPython als USB-Tastatur (HID) nutzen – gesteuert über GPIO-Pins und physische Taster.
 
 ## Lernziele
