@@ -1,4 +1,5 @@
 site_name: Pico HID Lernprojekt
+site_url: https://sq.jvlb.de
 site_description: Raspberry Pi Pico als USB-HID-Gerät mit CircuitPython
 docs_dir: docs
 
