@@ -1,4 +1,4 @@
-# Schritt 4: Erste HID-Anwendung – Spacebar-Taster
+# Schritt 5: Erste HID-Anwendung – Spacebar-Taster
 
 In diesem Schritt verbinden wir einen physischen Taster mit dem Pico. Ein Tastendruck soll eine Leertaste (Spacebar) an den Rechner senden – so als würde man auf der Tastatur die Leertaste drücken.
 
@@ -36,7 +36,7 @@ Vollständiges Pinout: https://datasheets.raspberrypi.com/pico/Pico-R3-A4-Pinout
 
 ## Code auf den Pico laden
 
-Die fertige Datei liegt unter [`../examples/01_spacebar/code.py`](../examples/01_spacebar/code.py).
+Die fertige Datei liegt unter `examples/01_spacebar/code.py` im Projektverzeichnis.
 
 Kopiere die Datei auf das `CIRCUITPY`-Laufwerk und benenne sie `code.py`:
 

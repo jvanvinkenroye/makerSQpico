@@ -8,6 +8,9 @@ CIRCUITPY/
 # macOS
 .DS_Store
 
+# MkDocs
+site/
+
 # Editor
 .vscode/
 *.swp

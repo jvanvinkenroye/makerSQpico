@@ -69,4 +69,4 @@ Beim Speichern einer Datei auf dem `CIRCUITPY`-Laufwerk startet der Pico automat
 
 ---
 
-Weiter: [Erste HID-Anwendung: Spacebar-Taster](04_hid_spacebar.md)
+Weiter: [Erstes Programm – Blink](04_blink.md)
