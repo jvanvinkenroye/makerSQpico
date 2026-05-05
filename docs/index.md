@@ -39,3 +39,4 @@ Ein schrittweises Lernprojekt: Den Raspberry Pi Pico mit CircuitPython als USB-T
 3. [Bibliotheken einrichten](03_bibliotheken.md)
 4. [Erstes Programm – Blink](04_blink.md)
 5. [Erste HID-Anwendung: Spacebar-Taster](05_hid_spacebar.md)
+6. [Streaming Deck – 6-Tasten-Macro-Keyboard](06_streaming_deck.md)

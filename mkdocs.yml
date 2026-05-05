@@ -23,6 +23,7 @@ nav:
     - 3. Bibliotheken einrichten: 03_bibliotheken.md
     - 4. Blink: 04_blink.md
     - 5. HID – Spacebar: 05_hid_spacebar.md
+    - 6. Streaming Deck: 06_streaming_deck.md
 
 markdown_extensions:
   - admonition
