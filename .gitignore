@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+
+# CircuitPython-Laufwerk falls gemountet
+CIRCUITPY/
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+*.swp
