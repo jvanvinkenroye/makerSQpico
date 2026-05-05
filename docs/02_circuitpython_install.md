@@ -11,9 +11,18 @@ Weitere Vorteile für Einsteiger:
 
 ## UF2-Datei herunterladen
 
-1. Öffne die [CircuitPython-Downloadseite für den Raspberry Pi Pico](https://circuitpython.org/board/raspberry_pi_pico/)
-2. Lade die aktuelle stabile Version herunter (`.uf2`-Datei, z.B. `adafruit-circuitpython-raspberry_pi_pico-en_US-9.x.x.uf2`)
-3. Speichere die Datei irgendwo auf deinem Rechner (z.B. Downloads-Ordner)
+Jede Pico-Variante braucht eine eigene UF2-Datei. Die richtige Seite aus der Tabelle öffnen:
+
+| Variante | CircuitPython-Download |
+|----------|----------------------|
+| Pico | [circuitpython.org/board/raspberry_pi_pico](https://circuitpython.org/board/raspberry_pi_pico/) |
+| Pico H | [circuitpython.org/board/raspberry_pi_pico](https://circuitpython.org/board/raspberry_pi_pico/) |
+| Pico W | [circuitpython.org/board/raspberry_pi_pico_w](https://circuitpython.org/board/raspberry_pi_pico_w/) |
+| Pico WH | [circuitpython.org/board/raspberry_pi_pico_w](https://circuitpython.org/board/raspberry_pi_pico_w/) |
+| Pico 2 | [circuitpython.org/board/raspberry_pi_pico2](https://circuitpython.org/board/raspberry_pi_pico2/) |
+| Pico 2W | [circuitpython.org/board/raspberry_pi_pico2w](https://circuitpython.org/board/raspberry_pi_pico2w/) |
+
+Auf der jeweiligen Seite die aktuelle stabile Version als `.uf2`-Datei herunterladen und im Downloads-Ordner speichern.
 
 ## CircuitPython flashen
 
